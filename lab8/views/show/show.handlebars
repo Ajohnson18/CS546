@@ -1,0 +1,27 @@
+<div class="show">
+  <h3 class="back"><a href="/">Back</a></h3>
+  <h1>{{show.name}}</h1> 
+  <img alt= "{{show.name}}"src="{{show.image.medium}}"/> 
+  <dl> 
+    <dt>Language</dt>
+    <dd>{{show.language}}</dd>
+    <hr />
+    <dt>Genres</dt> 
+    <dd> 
+      <ul>
+        {{#each show.genres as |t|}} 
+        <li>{{t}}</li>
+        {{/each}} 
+      </ul> 
+    </dd> 
+    <hr />
+    <dt>Average Rating</dt> 
+    <dd>{{show.rating.average}}</dd>
+        <hr /> 
+    <dt>Network</dt> 
+    <dd>{{show.network.name}}</dd>
+        <hr /> 
+    <dt>Summary</dt> 
+    <dd class="summary">{{{show.summary}}}</dd> 
+  </dl> 
+</div> 

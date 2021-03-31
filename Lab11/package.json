@@ -1,0 +1,17 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "My lab 10 module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Alex Johnson 10439617",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "response": "^0.18.0",
+    "xss": "^1.0.8"
+  }
+}

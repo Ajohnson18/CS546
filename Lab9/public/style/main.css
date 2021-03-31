@@ -1,0 +1,46 @@
+.is-prime {
+    color: #00E676;
+}
+
+.not-prime {
+    color: #FF3D00;
+}
+
+body {
+    text-align: center;
+}
+
+#results {
+    width: 300px;
+    margin: 0 auto;
+}
+
+hr {
+    width: 500px;
+}
+
+input {
+    border-radius: 10px;
+    height: 30px;
+}
+
+input:focus {
+    background-color: lightgrey;
+    transition: 0.3s;
+}
+
+li {
+    height: 30px;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    background-color: lightgrey;
+}
+
+main {
+    padding: 0 30px;
+}

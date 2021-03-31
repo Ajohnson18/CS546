@@ -1,0 +1,14 @@
+<section>
+  <h1>Shows</h1>
+  <h2>Keyword: {{keyword}}</h2>
+  {{#each shows}}
+    <article class="search">
+    <ul>
+        <li>
+            <a href="/shows/{{show.id}}">{{show.name}}</a>
+        </li>
+    </ul>
+    </article>
+  {{else}}<p class="not-found">We're sorry, but no results were found for {{keyword}}.</p>
+  {{/each}}
+</section>

@@ -1,0 +1,71 @@
+body {
+	text-align: center;
+	padding-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	width: 100vw;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: lightgrey;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	float: left;
+	padding-right: 20px;
+}
+
+nav a {
+	color: darkslategrey;
+	font-size: 30px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: black;
+}
+
+.selected {
+	color: black;
+}
+
+hr {
+	width: 85vw;
+}
+
+.article-title {
+	text-align: left;
+	padding: 0 150px;
+	font-size: 30px;
+}
+
+.article-p {
+	padding: 0 150px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.article-ol {
+	padding: 0 200px;
+	text-align: left;
+	font-size: 20px;
+}
+
+.article-ul {
+	padding: 0 200px;
+	text-align: left;
+	font-size: 20px;
+}
+
+aside {
+	padding: 0 200px;
+	text-align: left;
+}
